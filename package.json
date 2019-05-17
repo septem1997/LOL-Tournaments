@@ -13,7 +13,8 @@
     "antd-mobile": "latest",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "moment": "latest"
+    "moment": "latest",
+    "better-scroll": "latest"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
