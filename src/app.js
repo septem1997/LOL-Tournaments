@@ -1,3 +1,4 @@
+import './config/app'
 
 export const dva = {
   config: {
