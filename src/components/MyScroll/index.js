@@ -8,7 +8,7 @@ export default class extends React.Component{
   wrapper = React.createRef()
 
   scroll = null
-  componentDidMount() {
+    componentDidMount() {
     this.scroll = new BScroll(this.wrapper.current)
   }
 

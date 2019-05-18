@@ -4,6 +4,7 @@ import React from 'react';
 import axios from 'axios';
 import MyScroll from '@/components/MyScroll';
 import moment from 'moment';
+import AdaptiveImg from '@/components/AdaptiveImg'
 
 export default class extends React.Component {
 
@@ -52,12 +53,8 @@ export default class extends React.Component {
             infinite
           >
             {this.state.banner.map(val => (
-              <div style={{ width: '100%', height: '33.33vh' }}>
-                <img
-                  src={val.picture_list[0]}
-                  alt=""
-                  style={{ width: '100%', height: 'auto' }}
-                />
+              <div style={{ width: '100%', height: '66.66vw' }}>
+                <AdaptiveImg style={{ width: '100%', height: '100%' }} src={val.picture_list[0]} />
               </div>
             ))}
           </Carousel>
